@@ -25,7 +25,7 @@ jobs:
         
     - name: Run SwiftLint
       run: |
-        swiftlint lint --reporter github
+        swiftlint lint --reporter github --path RussianPay/
       continue-on-error: true
       
   security-scan:

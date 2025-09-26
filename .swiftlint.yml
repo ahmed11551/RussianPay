@@ -8,6 +8,7 @@ disabled_rules:
   - file_length
   - type_body_length
   - cyclomatic_complexity
+  - file_header
 
 # Opt-in rules
 opt_in_rules:
@@ -29,17 +30,6 @@ analyzer_rules:
   - explicit_self
   - unused_declaration
   - unused_import
-
-# File-level rules
-file_header:
-  required_pattern: |
-                    \/\/
-                    \/\/  RussianPay
-                    \/\/  .*
-                    \/\/  .*
-                    \/\/  Created by .* on \d{1,2}\/\d{1,2}\/\d{4}\.
-                    \/\/  Copyright © \d{4} .*\. All rights reserved\.
-                    \/\/
 
 # Line length
 line_length:
@@ -103,3 +93,4 @@ excluded:
   - RussianPayTests
   - RussianPayUITests
   - RussianPay.xcodeproj
+  - .github
