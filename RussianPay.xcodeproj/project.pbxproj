@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1234567890ABCDEF1234567 /* RussianPayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF1234566 /* RussianPayApp.swift */; };
+		A1234567890ABCDEF1234569 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF1234568 /* MainView.swift */; };
+		A1234567890ABCDEF123456B /* AddCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF123456A /* AddCardView.swift */; };
+		A1234567890ABCDEF123456D /* PaymentSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF123456C /* PaymentSheetView.swift */; };
+		A1234567890ABCDEF123456F /* ApplePayViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF123456E /* ApplePayViews.swift */; };
+		A1234567890ABCDEF1234571 /* NFCViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF1234570 /* NFCViews.swift */; };
+		A1234567890ABCDEF1234573 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF1234572 /* Card.swift */; };
+		A1234567890ABCDEF1234575 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF1234574 /* Transaction.swift */; };
+		A1234567890ABCDEF1234577 /* NFCEmulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF1234576 /* NFCEmulator.swift */; };
+		A1234567890ABCDEF1234579 /* NFCTagEmulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF1234578 /* NFCTagEmulator.swift */; };
+		A1234567890ABCDEF123457B /* NFCReaderEmulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF123457A /* NFCReaderEmulator.swift */; };
+		A1234567890ABCDEF123457D /* CryptoEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF123457C /* CryptoEngine.swift */; };
+		A1234567890ABCDEF123457F /* KeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF123457E /* KeyManager.swift */; };
+		A1234567890ABCDEF1234581 /* SecureEnclaveManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF1234580 /* SecureEnclaveManager.swift */; };
+		A1234567890ABCDEF1234583 /* ApplePayEmulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF1234582 /* ApplePayEmulator.swift */; };
+		A1234567890ABCDEF1234585 /* BLEPaymentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF1234584 /* BLEPaymentService.swift */; };
+		A1234567890ABCDEF1234587 /* WiFiDirectService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF1234586 /* WiFiDirectService.swift */; };
+		A1234567890ABCDEF1234589 /* QRCodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF1234588 /* QRCodeService.swift */; };
+		A1234567890ABCDEF123458B /* RussianPay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF123458A /* RussianPay.xcdatamodeld */; };
+		A1234567890ABCDEF123458D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF123458C /* Assets.xcassets */; };
+		A1234567890ABCDEF1234590 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF123458F /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1234567890ABCDEF1234563 /* RussianPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RussianPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1234567890ABCDEF1234566 /* RussianPayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussianPayApp.swift; sourceTree = "<group>"; };
+		A1234567890ABCDEF1234568 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A1234567890ABCDEF123456A /* AddCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardView.swift; sourceTree = "<group>"; };
+		A1234567890ABCDEF123456C /* PaymentSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentSheetView.swift; sourceTree = "<group>"; };
+		A1234567890ABCDEF123456E /* ApplePayViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePayViews.swift; sourceTree = "<group>"; };
+		A1234567890ABCDEF1234570 /* NFCViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCViews.swift; sourceTree = "<group>"; };
+		A1234567890ABCDEF1234572 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		A1234567890ABCDEF1234574 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		A1234567890ABCDEF1234576 /* NFCEmulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCEmulator.swift; sourceTree = "<group>"; };
+		A1234567890ABCDEF1234578 /* NFCTagEmulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCTagEmulator.swift; sourceTree = "<group>"; };
+		A1234567890ABCDEF123457A /* NFCReaderEmulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCReaderEmulator.swift; sourceTree = "<group>"; };
+		A1234567890ABCDEF123457C /* CryptoEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoEngine.swift; sourceTree = "<group>"; };
+		A1234567890ABCDEF123457E /* KeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyManager.swift; sourceTree = "<group>"; };
+		A1234567890ABCDEF1234580 /* SecureEnclaveManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureEnclaveManager.swift; sourceTree = "<group>"; };
+		A1234567890ABCDEF1234582 /* ApplePayEmulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePayEmulator.swift; sourceTree = "<group>"; };
+		A1234567890ABCDEF1234584 /* BLEPaymentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEPaymentService.swift; sourceTree = "<group>"; };
+		A1234567890ABCDEF1234586 /* WiFiDirectService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFiDirectService.swift; sourceTree = "<group>"; };
+		A1234567890ABCDEF1234588 /* QRCodeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeService.swift; sourceTree = "<group>"; };
+		A1234567890ABCDEF123458A /* RussianPay.xcdatamodeld */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RussianPay.xcdatamodeld; sourceTree = "<group>"; };
+		A1234567890ABCDEF123458C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1234567890ABCDEF123458F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1234567890ABCDEF1234591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1234567890ABCDEF1234592 /* RussianPay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RussianPay.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1234567890ABCDEF1234560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1234567890ABCDEF123455A /* RussianPay */ = {
+			isa = PBXGroup;
+			children = (
+				A1234567890ABCDEF1234566 /* RussianPayApp.swift */,
+				A1234567890ABCDEF1234591 /* Info.plist */,
+				A1234567890ABCDEF1234592 /* RussianPay.entitlements */,
+				A1234567890ABCDEF1234567 /* Views */,
+				A1234567890ABCDEF1234568 /* Models */,
+				A1234567890ABCDEF1234569 /* NFC */,
+				A1234567890ABCDEF123456A /* ApplePay */,
+				A1234567890ABCDEF123456B /* Communication */,
+				A1234567890ABCDEF123458C /* Assets.xcassets */,
+				A1234567890ABCDEF123458A /* RussianPay.xcdatamodeld */,
+				A1234567890ABCDEF123458E /* Preview Content */,
+			);
+			path = RussianPay;
+			sourceTree = "<group>";
+		};
+		A1234567890ABCDEF1234567 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1234567890ABCDEF1234568 /* MainView.swift */,
+				A1234567890ABCDEF123456A /* AddCardView.swift */,
+				A1234567890ABCDEF123456C /* PaymentSheetView.swift */,
+				A1234567890ABCDEF123456E /* ApplePayViews.swift */,
+				A1234567890ABCDEF1234570 /* NFCViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1234567890ABCDEF1234568 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1234567890ABCDEF1234572 /* Card.swift */,
+				A1234567890ABCDEF1234574 /* Transaction.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A1234567890ABCDEF1234569 /* NFC */ = {
+			isa = PBXGroup;
+			children = (
+				A1234567890ABCDEF123456A /* Core */,
+				A1234567890ABCDEF123456B /* Security */,
+			);
+			path = NFC;
+			sourceTree = "<group>";
+		};
+		A1234567890ABCDEF123456A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A1234567890ABCDEF1234576 /* NFCEmulator.swift */,
+				A1234567890ABCDEF1234578 /* NFCTagEmulator.swift */,
+				A1234567890ABCDEF123457A /* NFCReaderEmulator.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A1234567890ABCDEF123456B /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				A1234567890ABCDEF123457C /* CryptoEngine.swift */,
+				A1234567890ABCDEF123457E /* KeyManager.swift */,
+				A1234567890ABCDEF1234580 /* SecureEnclaveManager.swift */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		A1234567890ABCDEF123456C /* ApplePay */ = {
+			isa = PBXGroup;
+			children = (
+				A1234567890ABCDEF1234582 /* ApplePayEmulator.swift */,
+			);
+			path = ApplePay;
+			sourceTree = "<group>";
+		};
+		A1234567890ABCDEF123456D /* Communication */ = {
+			isa = PBXGroup;
+			children = (
+				A1234567890ABCDEF123456E /* Bluetooth */,
+				A1234567890ABCDEF123456F /* WiFi */,
+				A1234567890ABCDEF1234570 /* QR */,
+			);
+			path = Communication;
+			sourceTree = "<group>";
+		};
+		A1234567890ABCDEF123456E /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				A1234567890ABCDEF1234584 /* BLEPaymentService.swift */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		A1234567890ABCDEF123456F /* WiFi */ = {
+			isa = PBXGroup;
+			children = (
+				A1234567890ABCDEF1234586 /* WiFiDirectService.swift */,
+			);
+			path = WiFi;
+			sourceTree = "<group>";
+		};
+		A1234567890ABCDEF1234570 /* QR */ = {
+			isa = PBXGroup;
+			children = (
+				A1234567890ABCDEF1234588 /* QRCodeService.swift */,
+			);
+			path = QR;
+			sourceTree = "<group>";
+		};
+		A1234567890ABCDEF123458E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A1234567890ABCDEF123458F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A1234567890ABCDEF1234559 = {
+			isa = PBXGroup;
+			children = (
+				A1234567890ABCDEF123455A /* RussianPay */,
+				A1234567890ABCDEF1234563 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1234567890ABCDEF1234563 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1234567890ABCDEF1234563 /* RussianPay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1234567890ABCDEF1234562 /* RussianPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1234567890ABCDEF1234593 /* Build configuration list for PBXNativeTarget "RussianPay" */;
+			buildPhases = (
+				A1234567890ABCDEF123455F /* Sources */,
+				A1234567890ABCDEF1234560 /* Frameworks */,
+				A1234567890ABCDEF1234561 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RussianPay;
+			productName = RussianPay;
+			productReference = A1234567890ABCDEF1234563 /* RussianPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1234567890ABCDEF123455B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A1234567890ABCDEF1234562 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A1234567890ABCDEF123455E /* Build configuration list for PBXProject "RussianPay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1234567890ABCDEF1234559;
+			productRefGroup = A1234567890ABCDEF1234563 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1234567890ABCDEF1234562 /* RussianPay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1234567890ABCDEF1234561 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1234567890ABCDEF1234590 /* Preview Assets.xcassets in Resources */,
+				A1234567890ABCDEF123458D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1234567890ABCDEF123455F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1234567890ABCDEF1234569 /* MainView.swift in Sources */,
+				A1234567890ABCDEF123456B /* AddCardView.swift in Sources */,
+				A1234567890ABCDEF123456D /* PaymentSheetView.swift in Sources */,
+				A1234567890ABCDEF123456F /* ApplePayViews.swift in Sources */,
+				A1234567890ABCDEF1234571 /* NFCViews.swift in Sources */,
+				A1234567890ABCDEF1234573 /* Card.swift in Sources */,
+				A1234567890ABCDEF1234575 /* Transaction.swift in Sources */,
+				A1234567890ABCDEF1234577 /* NFCEmulator.swift in Sources */,
+				A1234567890ABCDEF1234579 /* NFCTagEmulator.swift in Sources */,
+				A1234567890ABCDEF123457B /* NFCReaderEmulator.swift in Sources */,
+				A1234567890ABCDEF123457D /* CryptoEngine.swift in Sources */,
+				A1234567890ABCDEF123457F /* KeyManager.swift in Sources */,
+				A1234567890ABCDEF1234581 /* SecureEnclaveManager.swift in Sources */,
+				A1234567890ABCDEF1234583 /* ApplePayEmulator.swift in Sources */,
+				A1234567890ABCDEF1234585 /* BLEPaymentService.swift in Sources */,
+				A1234567890ABCDEF1234587 /* WiFiDirectService.swift in Sources */,
+				A1234567890ABCDEF1234589 /* QRCodeService.swift in Sources */,
+				A1234567890ABCDEF123458B /* RussianPay.xcdatamodeld in Sources */,
+				A1234567890ABCDEF1234567 /* RussianPayApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1234567890ABCDEF1234594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1234567890ABCDEF1234595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1234567890ABCDEF1234596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RussianPay/RussianPay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RussianPay/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RussianPay/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.russianpay.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1234567890ABCDEF1234597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RussianPay/RussianPay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RussianPay/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RussianPay/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.russianpay.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1234567890ABCDEF123455E /* Build configuration list for PBXProject "RussianPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1234567890ABCDEF1234594 /* Debug */,
+				A1234567890ABCDEF1234595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1234567890ABCDEF1234593 /* Build configuration list for PBXNativeTarget "RussianPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1234567890ABCDEF1234596 /* Debug */,
+				A1234567890ABCDEF1234597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A1234567890ABCDEF123458A /* RussianPay.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+			);
+			currentVersion = A1234567890ABCDEF123458A /* RussianPay.xcdatamodel */;
+			path = RussianPay.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A1234567890ABCDEF123455B /* Project object */;
+}

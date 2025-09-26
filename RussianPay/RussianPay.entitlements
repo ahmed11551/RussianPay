@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- NFC Capabilities -->
+    <key>com.apple.developer.nfc.readersession.formats</key>
+    <array>
+        <string>TAG</string>
+        <string>NDEF</string>
+    </array>
+    
+    <!-- Apple Pay Capabilities -->
+    <key>com.apple.developer.payment-pass-provisioning</key>
+    <true/>
+    <key>com.apple.developer.payment-pass-library</key>
+    <true/>
+    
+    <!-- Bluetooth Capabilities -->
+    <key>com.apple.developer.bluetooth-central</key>
+    <true/>
+    <key>com.apple.developer.bluetooth-peripheral</key>
+    <true/>
+    
+    <!-- Secure Enclave Access -->
+    <key>com.apple.developer.secure-enclave</key>
+    <true/>
+    
+    <!-- Keychain Access -->
+    <key>keychain-access-groups</key>
+    <array>
+        <string>$(AppIdentifierPrefix)com.russianpay.keychain</string>
+    </array>
+    
+    <!-- Background Modes -->
+    <key>com.apple.developer.background-modes</key>
+    <array>
+        <string>bluetooth-central</string>
+        <string>bluetooth-peripheral</string>
+        <string>background-processing</string>
+    </array>
+    
+    <!-- Network Extensions -->
+    <key>com.apple.developer.networking.wifi-info</key>
+    <true/>
+    
+    <!-- Camera Access -->
+    <key>com.apple.developer.camera</key>
+    <true/>
+    
+    <!-- Location Services -->
+    <key>com.apple.developer.location</key>
+    <true/>
+    
+    <!-- Biometric Authentication -->
+    <key>com.apple.developer.authentication-services</key>
+    <true/>
+</dict>
+</plist>
