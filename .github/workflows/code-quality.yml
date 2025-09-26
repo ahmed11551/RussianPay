@@ -1,0 +1,55 @@
+name: Code Quality
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  swiftlint:
+    runs-on: macos-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Xcode
+      uses: maxim-lobanov/setup-xcode@v1
+      with:
+        xcode-version: latest-stable
+        
+    - name: Install SwiftLint
+      run: |
+        brew install swiftlint
+        
+    - name: Run SwiftLint
+      run: |
+        swiftlint lint --reporter github
+      continue-on-error: true
+      
+  security-scan:
+    runs-on: macos-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Xcode
+      uses: maxim-lobanov/setup-xcode@v1
+      with:
+        xcode-version: latest-stable
+        
+    - name: Security scan
+      run: |
+        echo "Running security analysis..."
+        # Check for hardcoded secrets
+        if grep -r "password\|secret\|key\|token" RussianPay/ --include="*.swift" | grep -v "// TODO\|// FIXME"; then
+          echo "⚠️  Potential hardcoded secrets found"
+        else
+          echo "✅ No hardcoded secrets found"
+        fi
+        
+        # Check for TODO/FIXME comments
+        echo "📝 TODO/FIXME comments:"
+        grep -r "TODO\|FIXME" RussianPay/ --include="*.swift" || echo "No TODO/FIXME comments found"

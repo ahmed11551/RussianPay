@@ -1,0 +1,105 @@
+# SwiftLint Configuration for RussianPay
+
+# Disabled rules
+disabled_rules:
+  - trailing_whitespace
+  - line_length
+  - function_body_length
+  - file_length
+  - type_body_length
+  - cyclomatic_complexity
+
+# Opt-in rules
+opt_in_rules:
+  - empty_count
+  - empty_string
+  - force_unwrapping
+  - implicitly_unwrapped_optional
+  - overridden_super_call
+  - prohibited_interface_builder
+  - redundant_nil_coalescing
+  - redundant_optional_initialization
+  - redundant_type_annotation
+  - switch_case_on_newline
+  - vertical_parameter_alignment_on_call
+  - yoda_condition
+
+# Analyzer rules
+analyzer_rules:
+  - explicit_self
+  - unused_declaration
+  - unused_import
+
+# File-level rules
+file_header:
+  required_pattern: |
+                    \/\/
+                    \/\/  RussianPay
+                    \/\/  .*
+                    \/\/  .*
+                    \/\/  Created by .* on \d{1,2}\/\d{1,2}\/\d{4}\.
+                    \/\/  Copyright © \d{4} .*\. All rights reserved\.
+                    \/\/
+
+# Line length
+line_length:
+  warning: 120
+  error: 200
+  ignores_urls: true
+  ignores_function_declarations: true
+  ignores_comments: true
+
+# Function body length
+function_body_length:
+  warning: 50
+  error: 100
+
+# Type body length
+type_body_length:
+  warning: 300
+  error: 500
+
+# File length
+file_length:
+  warning: 500
+  error: 1000
+
+# Cyclomatic complexity
+cyclomatic_complexity:
+  warning: 10
+  error: 20
+
+# Identifier name
+identifier_name:
+  min_length:
+    warning: 2
+    error: 1
+  max_length:
+    warning: 40
+    error: 60
+  excluded:
+    - id
+    - url
+    - api
+    - ui
+    - nfc
+    - ble
+    - qr
+
+# Type name
+type_name:
+  min_length:
+    warning: 3
+    error: 1
+  max_length:
+    warning: 40
+    error: 60
+
+# Excluded paths
+excluded:
+  - Pods
+  - .build
+  - DerivedData
+  - RussianPayTests
+  - RussianPayUITests
+  - RussianPay.xcodeproj
